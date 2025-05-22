@@ -1,0 +1,47 @@
+{
+  "name": "ai-uniswap-trading-bot",
+  "version": "1.0.0",
+  "description": "An intelligent, adaptive trading bot for Uniswap with machine learning capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "dev": "nodemon index.js",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "uniswap",
+    "trading-bot",
+    "defi",
+    "ethereum",
+    "ai",
+    "machine-learning",
+    "cryptocurrency",
+    "automated-trading"
+  ],
+  "author": "AnimalityAI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/animalityAI/ai-uniswap-trading-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/animalityAI/ai-uniswap-trading-bot/issues"
+  },
+  "homepage": "https://github.com/animalityAI/ai-uniswap-trading-bot#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
